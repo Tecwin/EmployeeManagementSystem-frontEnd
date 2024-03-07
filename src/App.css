@@ -1,0 +1,15 @@
+.footer{
+  position: fixed;
+  bottom:-10px;
+  
+  width: 100%;
+  height: 40px;
+  background-color: #1e64c7;
+  text-align: center;
+  color: white;
+  
+}
+.container{
+  position: relative;
+ margin-bottom: 30px;
+}
