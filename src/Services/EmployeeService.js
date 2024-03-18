@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const getAllEmployeesURL='http://localhost:8080/employee/getAll';
-const saveEmployeeURL='http://localhost:8080/employee/save';
-const getEmployeeURL='http://localhost:8080/employee/getEmployee'
-const updateEmployeeURL='http://localhost:8080/employee/updateEmployee';
-const deleteEmployeeURL='http://localhost:8080/employee/delete';
+const getAllEmployeesURL='http://ec2-16-170-148-186.eu-north-1.compute.amazonaws.com/employee/getAll';
+const saveEmployeeURL='http://ec2-16-170-148-186.eu-north-1.compute.amazonaws.com/employee/save';
+const getEmployeeURL='http://ec2-16-170-148-186.eu-north-1.compute.amazonaws.com/employee/getEmployee';
+const updateEmployeeURL='http://ec2-16-170-148-186.eu-north-1.compute.amazonaws.com/employee/updateEmployee';
+const deleteEmployeeURL='http://ec2-16-170-148-186.eu-north-1.compute.amazonaws.com/employee/delete';
 
 
 export const getAllEmployee=()=> {
